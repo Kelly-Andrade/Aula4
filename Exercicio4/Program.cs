@@ -36,7 +36,7 @@ while (opcao == "s")
                     vitoriaPC++;
                     Console.WriteLine($"\nO computador escolheu {simbolos[PC]} e você perdeu.");
                 }
-                else //pc == 2
+                else 
                 {
                     suaVitoria++;
                     Console.WriteLine($"\nO computador escolheu {simbolos[PC]} e você venceu.");
@@ -49,27 +49,26 @@ while (opcao == "s")
                     suaVitoria++;
                     Console.WriteLine($"\nO computador escolheu {simbolos[PC]} e você venceu.");
                 }
-                else //pc == 2
+                else 
                 {
                     vitoriaPC++;
                     Console.WriteLine($"\nO computador escolheu {simbolos[PC]} e você perdeu.");
                 }
             }
-            else //jogada == 2
+            else 
             {
                 if (PC == 0)
                 {
                     vitoriaPC++;
                     Console.WriteLine($"\nO computador escolheu {simbolos[PC]} e você perdeu.");
                 }
-                else //pc == 1
+                else 
                 {
                     suaVitoria++;
                     Console.WriteLine($"\nO computador escolheu {simbolos[PC]} e você venceu.");
                 }
             }
         }
-
     }
 
     Console.WriteLine("\nDeseja continuar? Digite s para sim e n para não.");
